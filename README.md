@@ -15,7 +15,7 @@ How to setup a repo of this page on your local machine:
 
 Open your git bash and cd to the location you'd like to put your files the run the command below.
 
->git clone git@github.com:Redvanisation/Smashing-Magazine-Clone.git
+>git clone git@github.com:tundeiness/the-next-web-clone.git
 
 
 Here is the link to the live version of this project

@@ -162,6 +162,50 @@
     display: none;
 }
 
+/* styling the third section */
+
+.content-card-big {
+
+}
+
+.content-card-top {
+
+}
+
+.card-top-img {
+
+}
+
+.text-top-container {
+
+}
+
+.card-top-heading {
+
+}
+
+.card-top-description {
+
+}
+
+.card-top-details {
+
+}
+
+.content-card-bottom {
+
+}
+
+.text-card-bottom {
+
+}
+
+.card-bottom-ul {
+
+}
+
+
+
 /* Main media queries */
 
 @media only screen and (min-width:770px) {
@@ -210,7 +254,7 @@
     .orange-card {
         width: calc(100%/3);
     }
-    
+
     .orange-card:not(:last-child) {
         margin-bottom: 0;
 
