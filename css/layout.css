@@ -295,7 +295,7 @@
         margin-bottom: 0;
 
     }
-    
+
     .content-card-big {
         width: calc(100%/2);
     }
@@ -311,9 +311,9 @@
         margin-right: .5rem;
         margin-left: .5rem;
     }
-    
+
     .latest-card-text-container {
-        
+
         margin-right: .5rem;
         margin-left: .5rem;
     }
@@ -354,12 +354,35 @@
 .footer {
     /* background-color: black; */
     /* height: 30vh; */
+    text-align: center;
 }
 
 .footer-links {
     background-color: darkgray;
     width: 100%;
-    height: 10rem;
+
+}
+
+.footer-icons {
+
+}
+
+.footer-icons-li,
+.footer-map-li {
+ display: inline-block;
+ margin-bottom: 1rem;
+}
+
+.footer-icons-links {
+
+
+}
+
+.footer-site-map {
+
+}
+
+.footer-map-li {
 
 }
 
