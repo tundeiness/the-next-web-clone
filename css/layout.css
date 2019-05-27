@@ -214,6 +214,33 @@
 }
 
 
+/* STYLING THE LATEST DEALS SECTION */
+
+.latest-card {
+    background-color: purple;
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest-card-img {
+    width: 70px;
+    margin-right: .5rem;
+    background-color: black;
+    color: black;
+}
+
+.latest-card-text-container {
+    /* width: 100%; */
+}
+
+.latest-card-h3 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+}
+
 
 /* Main media queries */
 
@@ -272,6 +299,24 @@
     .content-card-big {
         width: calc(100%/2);
     }
+
+    .latest-card {
+        width: calc(100%/3);
+
+    }
+
+    .latest-card-img {
+        width: 100%;
+        margin: 0 auto;
+        margin-right: .5rem;
+        margin-left: .5rem;
+    }
+    
+    .latest-card-text-container {
+        
+        margin-right: .5rem;
+        margin-left: .5rem;
+    }
 }
 
 
@@ -291,6 +336,11 @@
 
     .content-card-big {
         width: calc(100%/3);
+    }
+
+    .latest-card {
+        width: calc(100%/4);
+
     }
 
 }
