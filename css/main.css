@@ -13,8 +13,10 @@
     width: 106px;
     height: 80px;
     padding: 1rem;
-    background-color: black;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
     position: relative;
+    cursor: pointer;
 }
 
 .logo-img {
