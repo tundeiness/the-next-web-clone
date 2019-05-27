@@ -167,7 +167,8 @@
 /* styling the third section */
 
 .content-card-big {
-
+ background-color: blueviolet;
+ margin-bottom: 1rem;
 }
 
 .content-card-title {
