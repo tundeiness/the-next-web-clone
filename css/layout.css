@@ -20,7 +20,7 @@
 }
 
 .menu-icon {
-
+    font-size: 50px;
 }
 
 .checkbox {
@@ -245,6 +245,16 @@
 /* Main media queries */
 
 @media only screen and (min-width:770px) {
+
+    /* .main-menu {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: none;
+        width: 0;
+    } */
+
 
     #h-d-1{
         width: 80%;
