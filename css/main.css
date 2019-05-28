@@ -1,7 +1,7 @@
 /* STYLING THE NAVIGATION */
 
 .header-nav {
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .nav {
@@ -101,14 +101,22 @@
     color: #a1a1a1;
 }
 
+
+/* STYLING THE MOBILE MENU */
+
 .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 1rem;
+    z-index: 9000;
+    border: 1px solid yellow;
 
 }
 
 .menu-icon {
     position: relative;
     z-index: 1000;
-    color: white;
+    color: black;
     font-size: 50px;
     cursor: pointer;
 }
@@ -125,6 +133,7 @@
     top: 0;
     left: 1000rem;
     transition: all .8s ease-in-out;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
 }
 
 .checkbox:checked ~ .hidden-menu {
@@ -133,7 +142,28 @@
 }
 
 .social-div {
+    color: black;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
 
+.social-ul {
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-li {
+    display: inline-block;
+}
+
+.social-li:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.social-link:link,
+.social-link:visited {
+    color: #fff;
 }
 
 .lists-div {
@@ -161,9 +191,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    /* height: 100%; */
-    width: 66.6666%;
-    margin-right: .5rem;
 
 }
 
@@ -190,7 +217,6 @@ text-align: right; */
 
 .header-heading-content {
     font-family: sans-serif;
-
     position: absolute;
     bottom: 1rem;
     left: 1rem;
@@ -218,7 +244,6 @@ text-align: right; */
     display: inline-block;
     color: #a1a1a1;
     font-size: 13px;
-
 }
 
 .header-div-li:not(:last-child) {
@@ -232,22 +257,20 @@ text-align: right; */
 }
 
 
-.header-sub-div {
+/* .header-sub-div {
  width: 32.5%;
-}
+} */
 
 #h-d-2 {
     background-image: linear-gradient(to bottom, transparent,rgba(0,0,0,.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/AlienwaraeCheap-796x597.png);
     background-size: cover;
     background-position: 40%;
-    width: 100%;
 }
 
 #h-d-3 {
     background-image: linear-gradient(to bottom, transparent,rgba(0,0,0,.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/download12-796x417.png);
     background-size: cover;
     background-position: 40%;
-    width: 100%;
 }
 
 
