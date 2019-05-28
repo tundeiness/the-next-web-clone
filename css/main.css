@@ -185,6 +185,8 @@
 
 }
 
+
+
 #h-d-1 {
     position: relative;
     background-image: linear-gradient(to bottom, transparent,rgba(0,0,0,.8)),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/download13-796x417.png);
@@ -261,6 +263,11 @@ text-align: right; */
  width: 32.5%;
 } */
 
+.header-sub-div {
+    /* border: 1px solid red; */
+
+}
+
 #h-d-2 {
     background-image: linear-gradient(to bottom, transparent,rgba(0,0,0,.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/AlienwaraeCheap-796x597.png);
     background-size: cover;
@@ -318,6 +325,60 @@ font-size: 13px;
     background-size: cover;
     background-position: 40%;
     position: relative;
+}
+
+
+.content-section {
+
+}
+
+.content-card-small {
+
+}
+
+.content-card-small:not(:last-child) {
+  /* margin-right: .2rem; */
+}
+
+.card-small-img {
+ height: 9rem;
+}
+
+.text-small-container {
+
+}
+
+.card-small-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: .7rem;
+}
+
+.small-heading-link {
+text-decoration: none;
+color: #000;
+}
+
+.small-heading-link:hover {
+text-decoration: underline;
+color: red;
+}
+
+.card-small-description {
+
+}
+
+.card-small-li {
+    display: inline-block;
+    color: #a1a1a1;
+    font-size: 13px;
+}
+
+.card-small-links:link,
+.card-small-links:visited {
+text-decoration: none;
+color: #a1a1a1;
 }
 
 
