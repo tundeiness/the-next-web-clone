@@ -192,7 +192,7 @@
 }
 
 .social-li:not(:last-child) {
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .social-link:link,
