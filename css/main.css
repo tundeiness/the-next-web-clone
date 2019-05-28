@@ -122,7 +122,7 @@
 .menu-icon {
     position: relative;
     display: inline-block;
-    z-index: 1000; 
+    z-index: 1000;
     font-size: 30px;
     padding: 1.5rem;
     cursor: pointer;
@@ -452,6 +452,45 @@ color: #a1a1a1;
 }
 
 
+.orange-card {
+ position: relative;
+}
+
+.orange-card-img {
+
+}
+
+.orange-card-title {
+
+}
+
+.orange-card-sub-title {
+
+}
+
+.orange-card-h4 {
+
+}
+
+.orange-card-h5 {
+
+}
+
+.orange-card-content {
+
+}
+
+.orange-card-link {
+
+}
+
+.orange-footer {
+
+}
+
+.orange-footer-link {
+
+}
 
 
 
