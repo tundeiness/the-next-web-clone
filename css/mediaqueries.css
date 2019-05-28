@@ -1,0 +1,151 @@
+/* ---------------- MEDIA QUERIES ---------------- */
+
+@media only screen and (min-width: 770px) {
+
+    .main-menu {
+        display: block;
+    }
+
+    .main-menu-top-ul {
+        display: inline-block;
+    }
+
+    .main-menu-bottom-ul {
+        display: inline-block !important;
+    }
+
+    .menu-icon {
+        
+    }
+
+    .search-btn {
+        padding: 1rem;
+    }
+
+    .search-icon {
+        font-size: 15px;
+    }
+
+    .mobile-menu {
+        display: none;
+        width: 0;
+    }
+
+
+
+
+
+
+
+    .header-div {
+        margin-bottom: 0;
+    }
+
+    .header-div:not(:last-child) {
+        margin-bottom: 0;
+
+    }
+
+    .header-sub-div {
+        width: 32.333%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .main-header {
+        justify-content: space-between;
+    }
+
+    #h-d-1{
+        width: 65.66666%;
+        height: 100%;
+    }
+
+    #h-d-2{
+        height: 49%;
+        margin-bottom: 0;
+    }
+
+
+    #h-d-3{
+        height: 49%;
+    }
+
+    .content-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-card-small {
+        display: flex;
+        flex-wrap: wrap;
+        width:calc(100%/3);
+        height: 200px;
+       }
+
+    .card-small-img {
+        width: 100%;
+    }
+
+    .text-small-container {
+        width: 100%;
+    }
+
+    .orange-card {
+        width: calc(100%/3);
+    }
+
+    .orange-card:not(:last-child) {
+        margin-bottom: 0;
+
+    }
+
+    .content-card-big {
+        width: calc(100%/2);
+    }
+
+    .latest-card {
+        width: calc(100%/3);
+
+    }
+
+    .latest-card-img {
+        width: 100%;
+        margin: 0 auto;
+        margin-right: .5rem;
+        margin-left: .5rem;
+    }
+
+    .latest-card-text-container {
+
+        margin-right: .5rem;
+        margin-left: .5rem;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .content-card-small {
+        width:calc(100%/4);
+    }
+
+    .orange-card {
+        width: calc(100%/4);
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .content-card-big {
+        width: calc(100%/3);
+    }
+
+    .latest-card {
+        width: calc(100%/4);
+
+    }
+
+}
