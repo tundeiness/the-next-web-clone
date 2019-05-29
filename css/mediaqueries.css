@@ -147,6 +147,12 @@
 
     }
 
+    .card-text-wrapper-top {
+        position: absolute;
+        top: 65%;
+        left: 1rem;
+    }
+
 
 }
 
@@ -172,6 +178,12 @@
     .latest-card {
         width: calc(100%/4);
 
+    }
+
+    .card-text-wrapper-top {
+        position: absolute;
+        top: 55%;
+        left: 1rem;
     }
 
 }

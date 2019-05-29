@@ -414,10 +414,6 @@ font-size: 13px;
  height: 9rem;
 }
 
-.text-small-container {
-
-}
-
 .card-small-heading {
     font-size: 1rem;
     font-weight: 600;
@@ -433,10 +429,6 @@ color: #000;
 .small-heading-link:hover {
 text-decoration: underline;
 color: red;
-}
-
-.card-small-description {
-
 }
 
 .card-small-li {
@@ -573,81 +565,153 @@ color: #a1a1a1;
 /* STYLING THE THIRD SECTION */
 
 .content-card-big {
+    padding: .5rem;
+}
 
+.content-card-title-wrapper{
+    display: block;
+    /* width: 100%; */
+    /* border: 1px solid black; */
 }
 
 .content-card-title {
- color: #f42;
- font-family: sans, Arial, sans-serif;
- font-size: 22px;
- font-weight: 400;
+    color: #f42;
+    font-family: sans, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
 
-}
-
-.right-chev {
- margin-left: .5rem;
- margin-top: .5rem;
 }
 
 .content-card-title:hover {
-   color:#000;
+    color:#000;
+}
+
+.right-chev {
+    margin-left: .5rem;
+    margin-top: .5rem;
+    position: relative;
+    top: 2px;
+}
+
+.content-card-big {
+    /* height: 400px; */
+}
+
+.card-top-container {
+    height: 400px;
+    position: relative;
+}
+
+.card-1 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/blockchain-ey-wine-cryptocurrency-ethereum-tracking-368x276.jpg');
+    background-size: cover;
+}
+
+.card-2 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/dellcomputex-368x276.jpg');
+    background-size: cover;
+}
+
+.card-3 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/laptop-368x276.jpg');
+    background-size: cover;
+}
+
+.card-4 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/one-368x276.jpg');
+    background-size: cover;
+}
+
+.card-5 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Untitled-design55-368x276.png');
+    background-size: cover;
+}
+
+.card-6 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/kik-kin-cryptocurrency-blockchain-tips-1-368x276.jpg');
+    background-size: cover;
+}
+
+.card-7 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/firefox-stop-cryptojacking-bitcoin-mining-cryptocurrency-monero-blockchain-mozilla-368x276.jpg');
+    background-size: cover;
+}
+
+.card-8 {
+    background: linear-gradient(to bottom, transparent 2%, rgba(0,0,0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/sextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack-368x276.jpg');
+    background-size: cover;
 }
 
 .content-card-top {
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: .7rem;
 }
 
-.card-top-img {
+/* .card-top-img {
  width: 100%;
 
-}
+} */
 
-.card-top-container {
+/* .card-top-container {
     position: absolute;
     top: 13.4rem;
     left: 0;
     border: 1px solid green;
     background:linear-gradient(to bottom, transparent,rgba(0,0,0,.8));
+} */
+
+.card-text-wrapper-top {
+    position: absolute;
+    top: 75%;
+    left: 1rem;
 }
 
 .card-small-div {
     color: #fff;
     font-family: sans-serif;
     padding-bottom: .3rem;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: .3rem;
 }
 
 .card-top-head {
- font-size: 20px;
+ font-size: 1.5rem;
  font-family: Arial,sans-serif;
+ font-weight: 600;
+ margin-bottom: .3rem;
 }
 
-.top-heading-link {
+.top-heading-link:link,
+.top-heading-link:visited {
  text-decoration: none;
  color: #fff;
 }
 
 .top-heading-link:hover {
     text-decoration: underline;
-    text-decoration-color: rgba(0,0,0,.2);
-   }
-
-.card-top-ul {
-
+    text-decoration-color: rgb(112, 112, 112);
 }
 
 .card-top-li {
-
+    color: hsla(0,0%,100%,.6);
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
-.card-top-links {
-
+.card-top-links:link,
+.card-top-links:visited {
+    text-decoration: none;
+    color: hsla(0,0%,100%,.6);
 }
 
-.card-top-li {
-
+.card-top-links:hover {
+    color: #fff;
 }
+
+/* styling the bottom of the card */
 
 .text-top-container {
     display: flex;
@@ -659,16 +723,16 @@ color: #a1a1a1;
 .top-heading-text{
  color: #f42;
  /* margin-left: .5em; */
- padding-left: .5em;
+ padding: .5em 1rem;
 }
 
 .card-top-heading {
+ text-transform: uppercase;
+ font-family: sans-serif;
+ font-weight: 400;
+ font-size: 12px;
  margin-top: .5rem;
  margin-bottom: .5rem;
-}
-
-.card-top-description {
-
 }
 
 .top-description-link {
@@ -688,10 +752,6 @@ color: #a1a1a1;
   height: 96px;
 }
 
-.card-top-details {
-
-}
-
 .content-card-bottom {
 
 }
@@ -704,12 +764,32 @@ color: #a1a1a1;
 
 }
 
-.card-bottom-lists {
 
+
+.card-bottom-lists {
+    padding: .5rem 0;
+    border-bottom: 1px solid rgba(148, 147, 147, .2);
 }
 
-.bottom-li-link {
+.card-bottom-li-link:link,
+.card-bottom-li-link:visited {
+    text-decoration: none;
+    color: #555;
+    font-family: sans-serif;
+    font-size: 13px;
+}
 
+.card-bottom-li-link:hover {
+    color: #000;
+}
+
+.card-bottom-li-link::before {
+    content: "\2022";
+    font-size: 1.5em;
+    color: #f42;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1rem;
 }
 
 
