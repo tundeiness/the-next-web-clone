@@ -157,12 +157,11 @@
 /* styling the second section */
 
 .orange-card {
-    background-color: orangered;
     width: 100%;
 }
 
 .orange-card:not(:last-child) {
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 .hidden {

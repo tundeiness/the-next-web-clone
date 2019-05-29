@@ -122,6 +122,32 @@
         margin-right: .5rem;
         margin-left: .5rem;
     }
+
+    .orange-card {
+        position: relative;
+        padding-right: 1rem;
+        background-color: transparent;
+        /* max-height: 600px; */
+    }
+
+    .orange-bg {
+        background-color: rgba(255,68,34,.08);
+        height: 300px;
+    }
+    
+    .content-section-li {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    
+    .content-section-li:not(:last-child) {
+        margin-right: .5rem;
+        border-right: 1px solid #f42;
+        padding-right: 1rem;
+
+    }
+
+
 }
 
 
