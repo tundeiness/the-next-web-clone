@@ -515,7 +515,7 @@ color: #a1a1a1;
     width: 100%;
     font-family: sans-serif;
     text-transform: uppercase;
-    
+
 }
 
 .orange-card-h4 {
@@ -570,6 +570,87 @@ color: #a1a1a1;
     font-weight: 100;
 }
 
+/* STYLING THE THIRD SECTION */
+
+.content-card-big {
+
+}
+
+.content-card-title {
+ color: #f42;
+ font-family: sans, Arial, sans-serif;
+ font-size: 28px;
+ font-weight: 400;
+
+}
+
+.right-chev {
+ margin-left: .5rem;
+ margin-top: .5rem;
+}
+
+.content-card-title:hover {
+   color:#000;
+}
+
+.content-card-top {
+  border: 1px solid red;
+  margin-top: .7rem;
+}
+
+.card-top-img {
+ width: 100%;
+}
+
+.text-top-container {
+
+}
+
+.top-heading-text{
+
+}
+
+.card-top-heading {
+
+}
+
+.card-top-description {
+
+}
+
+.top-description-link {
+
+}
+
+.top-thumbnail-img {
+
+}
+
+.card-top-details {
+
+}
+
+.content-card-bottom {
+
+}
+
+.text-card-bottom {
+
+}
+
+.card-bottom-ul {
+
+}
+
+.card-bottom-lists {
+
+}
+
+.bottom-li-link {
+
+}
+
+.
 
 
 
