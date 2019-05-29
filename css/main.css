@@ -579,7 +579,7 @@ color: #a1a1a1;
 .content-card-title {
  color: #f42;
  font-family: sans, Arial, sans-serif;
- font-size: 28px;
+ font-size: 22px;
  font-weight: 400;
 
 }
@@ -594,24 +594,77 @@ color: #a1a1a1;
 }
 
 .content-card-top {
+  position: relative;
   border: 1px solid red;
   margin-top: .7rem;
 }
 
 .card-top-img {
  width: 100%;
+
+}
+
+.card-top-container {
+    position: absolute;
+    top: 13.4rem;
+    left: 0;
+    border: 1px solid green;
+    background:linear-gradient(to bottom, transparent,rgba(0,0,0,.8));
+}
+
+.card-small-div {
+    color: #fff;
+    font-family: sans-serif;
+    padding-bottom: .3rem;
+}
+
+.card-top-head {
+ font-size: 20px;
+ font-family: Arial,sans-serif;
+}
+
+.top-heading-link {
+ text-decoration: none;
+ color: #fff;
+}
+
+.top-heading-link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,.2);
+   }
+
+.card-top-ul {
+
+}
+
+.card-top-li {
+
+}
+
+.card-top-links {
+
+}
+
+.card-top-li {
+
 }
 
 .text-top-container {
-
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255,68,34,.08);
+    /* border: 1px solid black; */
 }
 
 .top-heading-text{
-
+ color: #f42;
+ /* margin-left: .5em; */
+ padding-left: .5em;
 }
 
 .card-top-heading {
-
+ margin-top: .5rem;
+ margin-bottom: .5rem;
 }
 
 .card-top-description {
@@ -619,11 +672,20 @@ color: #a1a1a1;
 }
 
 .top-description-link {
-
+ text-decoration: none;
+ color: #f42;
+ font-family: Arial, sans-serif;
+ font-weight: 600;
 }
 
-.top-thumbnail-img {
+.top-description-link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,.2);
+   }
 
+.top-thumbnail-img {
+  width: 96px;
+  height: 96px;
 }
 
 .card-top-details {
@@ -650,7 +712,6 @@ color: #a1a1a1;
 
 }
 
-.
 
 
 
