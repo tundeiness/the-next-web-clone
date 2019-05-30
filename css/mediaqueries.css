@@ -191,7 +191,7 @@
 
 
 .footer-icons-li {
-    margin: 0 .5rem;      /* change to margin: 0  .5rem in 770px devices */
+    margin: 0 .5rem;
 }
 
 .footer-map-li {
@@ -199,7 +199,7 @@
 }
 
 .footer-legal-span {
-    display: inline;      /* change to inline in 770px devices */
+    display: inline;
 
 }
 
