@@ -190,6 +190,22 @@
 
 
 
+.footer-icons-li {
+    margin: 0 .5rem;      /* change to margin: 0  .5rem in 770px devices */
+}
+
+.footer-map-li {
+    font-size: 13px;
+}
+
+.footer-legal-span {
+    display: inline;      /* change to inline in 770px devices */
+
+}
+
+
+
+
 }
 
 
