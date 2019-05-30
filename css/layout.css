@@ -223,8 +223,8 @@
 /* STYLING THE LATEST DEALS SECTION */
 
 .latest-card {
-    background-color: purple;
-    padding: 1rem 0;
+    /* background-color: purple; */
+    padding: .3rem 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
