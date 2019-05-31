@@ -1,9 +1,5 @@
 /* STYLING THE NAVIGATION */
 
-.header-nav {
-    /* background-color: pink; */
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
@@ -90,9 +86,7 @@
 }
 
 .search-btn {
-    /* display: inline-block; */
     float: right;
-    /* height: 100%; */
     padding: 1.5rem;
     border-left: 1px solid rgba(161,161,161,0.4);
 }
@@ -106,17 +100,11 @@
 /* STYLING THE MOBILE MENU */
 
 .mobile-menu {
-    /* position: fixed;
-    top: 0;
-    right: 1rem; */
-    /* z-index: 9000; */
     float: right;
     margin-right: .5rem;
     margin-left: .5rem;
-    /* border: 1px solid yellow; */
     position: relative;
     z-index: 99999;
-
 }
 
 .menu-icon {
@@ -241,21 +229,11 @@
     font-size: 12px;
 }
 
-.main-container {
-
-}
-
 .main-header {
     height: 28rem;
     max-height: 35rem;
     margin: 0 1rem 1rem;
-
 }
-
-.header-div {
-
-}
-
 
 
 #h-d-1 {
@@ -265,20 +243,6 @@
     background-size: cover;
     overflow: hidden;
 
-}
-
-
-.header-div-logo {
-/* background: transparent url(../img/tnw.svg) no-repeat;
-background-size: contain;
-left: 24px;
-max-width: 50%;
-height: 100%;
-max-height: 112px;
-line-height: 1;
-top: 24px;
-pointer-events: none;
-text-align: right; */
 }
 
 .header-div-date {
@@ -309,10 +273,6 @@ text-align: right; */
     margin-bottom: .5rem;
 }
 
-.header-div-details {
-
-}
-
 .header-div-li {
     display: inline-block;
     color: #a1a1a1;
@@ -330,15 +290,6 @@ text-align: right; */
 }
 
 
-/* .header-sub-div {
- width: 32.5%;
-} */
-
-.header-sub-div {
-    /* border: 1px solid red; */
-
-}
-
 #h-d-2 {
     background-image: linear-gradient(to bottom, transparent,rgba(0,0,0,.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/AlienwaraeCheap-796x597.png);
     background-size: cover;
@@ -348,7 +299,6 @@ text-align: right; */
 
 
 .header-div-content {
- /* border: 1px solid red; */
  position: absolute;
  bottom: .5rem;
  left: .2rem;
@@ -372,10 +322,6 @@ text-align: right; */
     margin-bottom: .5rem;
 }
 
-.header--details {
-
-}
-
 
 .header--li{
  display: inline-block;
@@ -388,7 +334,6 @@ font-size: 13px;
     text-decoration: none;
     color: #a1a1a1;
 }
-
 
 
 #h-d-3 {
@@ -501,7 +446,6 @@ color: #a1a1a1;
     width: 100%;
     font-family: sans-serif;
     text-transform: uppercase;
-
 }
 
 .orange-card-h4 {
@@ -515,8 +459,6 @@ color: #a1a1a1;
     opacity: .5;
     font-weight: 100;
     font-size: 13px;
-
-
 }
 
 .orange-card-content {
@@ -564,8 +506,6 @@ color: #a1a1a1;
 
 .content-card-title-wrapper{
     display: block;
-    /* width: 100%; */
-    /* border: 1px solid black; */
 }
 
 .content-card-title {
@@ -585,10 +525,6 @@ color: #a1a1a1;
     margin-top: .5rem;
     position: relative;
     top: 2px;
-}
-
-.content-card-big {
-    /* height: 400px; */
 }
 
 .card-top-container {
@@ -638,16 +574,8 @@ color: #a1a1a1;
 
 .content-card-top {
   position: relative;
-  /* border: 1px solid red; */
   margin-top: .7rem;
 }
-
-/* .card-top-img {
- width: 100%;
-
-} */
-
-
 
 .card-text-wrapper-top {
     position: absolute;
@@ -705,7 +633,6 @@ color: #a1a1a1;
     display: flex;
     justify-content: space-between;
     background-color: rgba(255,68,34,.08);
-    /* border: 1px solid black; */
 }
 
 .top-heading-text{
@@ -737,18 +664,6 @@ color: #a1a1a1;
 .top-thumbnail-img {
   width: 96px;
   height: 96px;
-}
-
-.content-card-bottom {
-
-}
-
-.text-card-bottom {
-
-}
-
-.card-bottom-ul {
-
 }
 
 
@@ -792,10 +707,6 @@ color: #a1a1a1;
  margin-bottom: 0;
 }
 
-.latest-header-head:hover {
-     /* color: #000; */
-}
-
 .latest-header-link {
     display: inline-block;
     margin-top: -1rem;
@@ -805,10 +716,7 @@ color: #a1a1a1;
 
 .latest-header-link:hover {
     color: #000;
-    }
-
-
-
+}
 
 
 .latest-deal-link:link,
@@ -824,7 +732,6 @@ color: #a1a1a1;
    }
 
 .latest-card {
- /* border: 1px solid red; */
  max-width: 100%;
 }
 
@@ -996,7 +903,6 @@ border: 1px solid transparent;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 
@@ -1063,14 +969,3 @@ b {
     margin-right: .1rem;
     vertical-align: baseline;
 }
-
-
-
-
-
-
-
-
-
-
-

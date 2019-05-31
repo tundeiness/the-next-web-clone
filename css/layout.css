@@ -1,9 +1,5 @@
 /* STYLING THE HEADER SECTION */
 
-.header-nav {
-    /* height: 20vh; */
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
@@ -21,32 +17,8 @@
     display: none;
 }
 
-.logo-div {
-
-}
-
-
-.checkbox-div {
-
-}
-
 .menu-icon {
     font-size: 50px;
-}
-
-.checkbox {
-
-}
-
-.hidden-menu {
-}
-
-.social-div {
-
-}
-
-.lists-div {
-
 }
 
 
@@ -66,17 +38,14 @@
 }
 
 .main-header {
-
     padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
 }
 
 .header-sub-div {
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: .3rem; */
     width: 100%;
 }
 
@@ -117,41 +86,24 @@
 }
 
 .content-section {
-    /* background-color: beige; */
     margin-bottom: 1rem;
     width: 100%;
     padding: .5rem;
-
 }
 
 
 .content-card-small {
  display: flex;
  flex-wrap: wrap;
- /* background-color: red; */
  margin-bottom: .5rem;
- /* justify-content: space-between;
- width: 23.55555%; */
-
-
 }
 
 .card-small-img {
-    background-color: red;
     width: 10%;
 }
 
 .text-small-container {
-    /* background-color: #fff; */
     width: 90%;
-}
-
-.card-small-heading {
-
-}
-
-.card-small-description {
-
 }
 
 /* styling the second section */
@@ -173,57 +125,14 @@
 /* styling the third section */
 
 .content-card-big {
- /* background-color: blueviolet; */
- /* margin-right: 1rem; */
  margin-bottom: 1rem;
  width: 100%;
-}
-
-.content-card-title {
-
-}
-
-.content-card-top {
-
-}
-
-.card-top-img {
-
-}
-
-.text-top-container {
-
-}
-
-.card-top-heading {
-
-}
-
-.card-top-description {
-
-}
-
-.card-top-details {
-
-}
-
-.content-card-bottom {
-
-}
-
-.text-card-bottom {
-
-}
-
-.card-bottom-ul {
-
 }
 
 
 /* STYLING THE LATEST DEALS SECTION */
 
 .latest-card {
-    /* background-color: purple; */
     padding: .3rem 0;
     width: 100%;
     display: flex;
@@ -233,18 +142,11 @@
 .latest-card-img {
     width: 70px;
     margin-right: .5rem;
-    background-color: black;
-    color: black;
-}
-
-.latest-card-text-container {
-    /* width: 100%; */
 }
 
 .latest-card-h3 {
     overflow-wrap: break-word;
     word-wrap: break-word;
-
 }
 
 
@@ -253,18 +155,11 @@
 /* STYLING THE FOOTER SECTION */
 
 .footer {
-    /* background-color: black; */
-    /* height: 30vh; */
     text-align: center;
 }
 
 .footer-links {
-    background-color: darkgray;
     width: 100%;
-
-}
-
-.footer-icons {
 
 }
 
@@ -274,23 +169,8 @@
  margin-bottom: 1rem;
 }
 
-.footer-icons-links {
-
-
-}
-
-.footer-site-map {
-
-}
-
-.footer-map-li {
-
-}
 
 .footer-legal {
-    background-color: gray;
     width: 100%;
-    /* height: 10rem; */
 }
 
-/* Footer media queries */
