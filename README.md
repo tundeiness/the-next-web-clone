@@ -1,4 +1,4 @@
-# the-next-web-clone
+# The-next-web-clone
 
 This projects shows our implementation and the mastery of media queries and other
 responsive web design concepts in building a tech focused magazine named
