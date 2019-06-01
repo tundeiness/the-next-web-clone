@@ -1,0 +1,176 @@
+/* STYLING THE HEADER SECTION */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu-top-ul {
+    display: none;
+}
+
+.main-menu-bottom-ul {
+    display: none !important;
+}
+
+.bottom-li {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 50px;
+}
+
+
+/* Header media queries */
+
+
+/* ------------------------------- */
+
+/* STYLING THE MAIN SECTION */
+
+.content-container {
+    max-width: 1192px;
+}
+
+.main-container {
+    background: linear-gradient(to bottom, #f5f5f5 .5%, #fff 99%);
+}
+
+.main-header {
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-sub-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header-div:not(:last-child) {
+     margin-bottom: .5rem;
+}
+
+
+#h-d-1 {
+    order: 0;
+    width: 100%;
+}
+
+#h-d-2 {
+    order: 1;
+    width: 100%;
+
+}
+
+#h-d-3 {
+    order: 2;
+    width: 100%;
+}
+
+
+.content-container {
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+
+.row {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-section {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: .5rem;
+}
+
+
+.content-card-small {
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: .5rem;
+}
+
+.card-small-img {
+    width: 10%;
+}
+
+.text-small-container {
+    width: 90%;
+}
+
+/* styling the second section */
+
+.orange-card {
+    width: 100%;
+}
+
+.orange-card:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* styling the third section */
+
+.content-card-big {
+ margin-bottom: 1rem;
+ width: 100%;
+}
+
+
+/* STYLING THE LATEST DEALS SECTION */
+
+.latest-card {
+    padding: .3rem 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest-card-img {
+    width: 70px;
+    margin-right: .5rem;
+}
+
+.latest-card-h3 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+
+/* ---------------------------------- */
+
+/* STYLING THE FOOTER SECTION */
+
+.footer {
+    text-align: center;
+}
+
+.footer-links {
+    width: 100%;
+
+}
+
+.footer-icons-li,
+.footer-map-li {
+ display: inline-block;
+ margin-bottom: 1rem;
+}
+
+
+.footer-legal {
+    width: 100%;
+}
+

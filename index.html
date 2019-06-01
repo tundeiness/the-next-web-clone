@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Next Web Clone</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+  </head>
+  <body>
+    <header class="header-nav">
+
+      <nav class="nav">
+        <div class="logo-div">
+          <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo" class="logo-img">
+        </div>
+
+        <div class="main-menu">
+          <ul class="main-menu-top-ul">
+            <li class="top-li"><a href="#" class="top-li-link">News</a></li>
+            <li class="top-li"><a href="#" class="top-li-link">Events</a></li>
+            <li class="top-li"><a href="#" class="top-li-link">Business</a></li>
+            <li class="top-li"><a href="#" class="top-li-link">AMAs</a></li>
+            <li class="top-li"><a href="#" class="top-li-link">Spaces</a></li>
+            <li class="top-li"><a href="#" class="top-li-link">Terms & Conditions</a></li>
+          </ul>
+
+          <div class="bottom-part-div">
+            <ul class="main-menu-bottom-ul">
+              <li class="bottom-li"><a href="#" class="bottom-li-link">latest</a></li>
+              <li class="bottom-li"><a href="#" class="bottom-li-link">hard fork</a></li>
+              <li class="bottom-li"><a href="#" class="bottom-li-link">plugged</a></li>
+              <li class="bottom-li"><a href="#" class="bottom-li-link">fundamentals</a></li>
+              <li class="bottom-li"><a href="#" class="bottom-li-link">iot lab</a></li>
+              <li class="bottom-li"><a href="#" class="bottom-li-link">work 2030</a></li>
+            </ul>
+
+            <div class="mobile-menu">
+              <input type="checkbox" class="checkbox" id="checkbox">
+              <label for="checkbox" class="menu-icon"><i class="fas fa-bars hamburger-icon"></i></label>
+
+              <div class="hidden-menu">
+                <div class="social-div">
+                  <ul class="social-ul">
+                    <li class="social-li"><a href="#" class="social-link"><i class="fas fa-envelope social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fab fa-facebook-square social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fab fa-twitter social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fab fa-google-plus-g social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fab fa-linkedin-in social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fab fa-youtube social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fab fa-pinterest-p social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fab fa-instagram social-icon"></i></a></li>
+                    <li class="social-li"><a href="#" class="social-link"><i class="fas fa-rss social-icon"></i></a></li>
+                  </ul>
+                </div>
+
+                <div class="lists-div">
+                  <div class="left-div">
+                    <h5 class="hidden-menu-h5">sections</h5>
+                    <ul class="hidden-menu-ul">
+                      <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Latest</a></li>
+                      <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Insights</a></li>
+                      <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Hard Fork</a></li>
+                      <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Plugged</a></li>
+                      <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Fundamentals</a></li>
+                      <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">IoT Lab</a></li>
+                      <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Work 2030</a></li>
+                    </ul>
+                  </div>
+                  <div class="right-div">
+                    <div class="top-div">
+                        <h5 class="hidden-menu-h5">about tnw</h5>
+                        <ul class="hidden-menu-ul">
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">about</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">team</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">advertise</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">jobs</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">contact</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom-div">
+                        <h5 class="hidden-menu-h5">tnw sites</h5>
+                        <ul class="hidden-menu-ul">
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">news</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">conferences</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">index</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">TQ</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">deals</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">answers</a></li>
+                          <li class="hidden-menu-li"><a href="#" class="hidden-menu-link">Cyberspace culture</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="search-btn"><i class="fas fa-search search-icon"></i></a>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+    <main class="main-container">
+      <!-- website header -->
+      <header class="main-header">
+        <div class="header-div" id="h-d-1">
+          <div class="header-div-logo"></div>
+          <p class="header-div-date">Monday-May 27 2019</p>
+          <div class="header-heading-content">
+            <h5 class="header-small-title">Podium</h5>
+            <h2 class="header-big-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, autem!</h2>
+            <ul class="header-div-details">
+              <li class="header-div-li">By <a href="#"
+              class="header-div-links"> Lorem Ipsum</a>
+              </li>
+              <li class="header-div-li">
+                <i class="far fa-clock"></i> 2 hours ago
+              </li>
+              <li class="header-div-li"><i class="fas fa-share-alt"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-sub-div">
+          <div class="header-div" id="h-d-2">
+            <div class="header-div-content">
+              <h5 class="header-small-div">Tech</h5>
+              <h2 class="header-big-div">Lorem, ipsum dolor sit amet consectetur elit. </h2>
+              <ul class="header--details">
+                <li class="header--li">By <a href="#"
+                class="header--links"> Lorem Ipsum</a>
+                </li>
+                <li class="header--li">
+                  <i class="far fa-clock"></i> 2 hours ago
+                </li>
+                <li class="header--li"><i class="fas fa-share-alt"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-div" id="h-d-3">
+            <div class="header-div-content">
+              <h5 class="header-small-div">Apps</h5>
+              <h2 class="header-big-div">Lorem, ipsum dolor sit amet consectetur elit. </h2>
+              <ul class="header--details">
+                <li class="header--li">By <a href="#"
+                class="header--links"> Lorem Ipsum</a>
+                </li>
+                <li class="header--li">
+                  <i class="far fa-clock"></i> 2 hours ago
+                </li>
+                <li class="header--li"><i class="fas fa-share-alt"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- main content -->
+      <div class="content-container">
+        <div class="row">
+          <section class="content-section">
+            
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/trader-cryptopcurrency-exchange-cryptopia-deposits-478x270.jpg" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">Cryptopia needs $2M to keep a database alive- or users might
+                never recover their tokens</a></h3>
+              <ul class="card-small-description">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/fish1200-516x270.png" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">Slimy fish mucus can help chemist develop new antibiotics -
+                here's how</a></h3>
+              <ul class="card-small-description">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/image-405x270.jpeg" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">It's never too late to learn Adobe Photoshop, Logic Pro, and
+                more during this sale</a></h3>
+              <ul class="card-small-description">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/tiktok-513x270.png" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">TikTok's parent company ByteDance reportedly wants to launch
+                it's own phone</a></h3>
+              <ul class="card-small-description">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Drone-516x270.png" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></h3>
+              <ul class="card-small-description">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/bitcoin-price-rise-516x270.jpg" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">Top cryptocurrencies outperform Bitcoin in latest price pump
+                (except XRP)</a></h3>
+              <ul class="card-small-details">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/cryptocurrency-bitcoin-blockchain-scam-virus-malware-478x270.jpg" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">PSA: Stay away from this 'Bitcoin Collector' app - it's malware</a></h3>
+              <ul class="card-small-details">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div class="content-card-small">
+              <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Huawei-514x270.jpg" alt="" class="card-small-img">
+              <div class="text-small-container">
+              <h3 class="card-small-heading"><a href="#" class="small-heading-link">Wifi alliance and SD Associates' ban won't affect Huawei (badly)(yet)</a></h3>
+              <ul class="card-small-details">
+                <li class="card-small-li">By <a href="#"
+                class="card-small-links"> Lorem Ipsum</a>
+                </li>
+                <li class="card-small-li"> 2 hours ago
+                </li>
+              </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- second section -->
+        <div class="row">
+          <section class="content-section">
+            <div class="content-section-titles">
+              <h1 class="content-section-h1">Latest funding rounds on Index.co ></h1>
+              <ul class="content-section-ul">
+                <li class="content-section-li"><a href="#" class="content-section-link">See more</a></li>
+                <li class="content-section-li"><a href="#" class="content-section-link">Get updates by email</a></li>
+                <li class="content-section-li"><a href="#" class="content-section-link">Add info</a></li>
+              </ul>
+            </div>
+            <div class="orange-card">
+              <div class="orange-bg">
+                <img src="https://index.tnwcdn.com/images/0bd6ba84a93068815c899ea7e7c318e07525cbee.jpg" alt="Img description" class="orange-card-img">
+                <h2 class="orange-card-title">Daung Capital</h2>
+                <div class="orange-card-sub-title">
+                  <h4 class="orange-card-h4">$12M</h4>
+                  <h5 class="orange-card-h5">series A</h5>
+                </div>
+                <div class="orange-card-content">
+                  <a href="#" class="orange-card-link"><i class="fas fa-tag orange-card-icon"></i>Banking</a>
+                  <a href="#" class="orange-card-link"><i class="fas fa-briefcase orange-card-icon"></i>Majuven</a>
+                </div>
+                <div class="orange-footer">
+                  <a href="#" class="orange-footer-link">Daung Capital closes
+                  Series A valuing Burmese fintech startup at US$12M <span class="footer-link-note">on e27</span></a>
+                </div>
+            </div>
+          </div>
+
+            <div class="orange-card">
+              <div class="orange-bg">
+                <img src="https://index.tnwcdn.com/images/f35888c86af204c783dc8688da125a8eebba8fad.jpg" alt="Img description" class="orange-card-img">
+                <h2 class="orange-card-title">Freshtohome</h2>
+                <div class="orange-card-sub-title">
+                  <h4 class="orange-card-h4">$11M</h4>
+                  <h5 class="orange-card-h5">undisclosed</h5>
+                </div>
+                <div class="orange-card-content">
+                  <a href="#" class="orange-card-link"><i class="fas fa-tag orange-card-icon"></i>Online Shopping</a>
+                  <a href="#" class="orange-card-link"><i class="fas fa-briefcase orange-card-icon"></i>M&S Partners, +6</a>
+                </div>
+                <div class="orange-footer">
+                  <a href="#" class="orange-footer-link">India's Freshtohomeraises
+                  $11M led by HK-based CE Ventures <span
+                  class="footer-link-note">on DealStreetAsia</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="orange-card">
+              <div class="orange-bg">
+                <img src="https://index.tnwcdn.com/images/ac836329471656944a0292eef7694f8de7431d42.png" alt="Img description" class="orange-card-img">
+                <h2 class="orange-card-title">GorillaSpace</h2>
+                <div class="orange-card-sub-title">
+                  <h4 class="orange-card-h4">Undisclosed amount</h4>
+                  <h5 class="orange-card-h5">seed fund</h5>
+                </div>
+                <div class="orange-card-content">
+                  <a href="#" class="orange-card-link"><i class="fas
+                  fa-tag orange-card-icon"></i>Business Services</a>
+                  <a href="#" class="orange-card-link"><i class="fas
+                  fa-briefcase orange-card-icon"></i>Mitsubishi Estate Co.Ltd</a>
+                </div>
+                <div class="orange-footer">
+                  <a href="#" class="orange-footer-link">Singapor's Gorilla Space
+                  raises seed funding led by Mitsubishi Estate<span
+                    class="footer-link-note">on DealStreetAsia</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="orange-card hidden">
+              <div class="orange-bg">
+                <img src="https://index.tnwcdn.com/images/1858a3b12f1968f921a0e42f25d5e34c2003ec2a.png" alt="Img description" class="orange-card-img">
+                <h2 class="orange-card-title">Fastly</h2>
+                <div class="orange-card-sub-title">
+                  <h4 class="orange-card-h4">Undisclosed amount</h4>
+                  <h5 class="orange-card-h5">IPO</h5>
+                </div>
+                <div class="orange-card-content">
+                  <a href="#" class="orange-card-link"><i class="fas
+                    fa-tag orange-card-icon"></i>Content, +3</a>
+                  <!-- <a href="#" class="orange-card-link">link2</a> -->
+                </div>
+                <div class="orange-footer">
+                  <a href="#" class="orange-footer-link">VC-backed Fastly goes public<span
+                    class="footer-link-note">on PE Hub</span></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- third section -->
+        <div class="row">
+          <section class="content-section">
+            <div class="content-card-big">
+              <div class="content-card-title-wrapper">
+                <h2 class="content-card-title">Apps<i class="fas fa-angle-right right-chev"></i></h2>
+              </div>
+              <div class="content-card-top">
+                  <div class="card-top-container card-1">
+                    <div class="card-text-wrapper-top">
+                      <h5 class="card-small-div">Most Popular</h5>
+                        <h3 class="card-top-head">
+                          <a href="#" class="top-heading-link">
+                            TikTok's parent company ByteDance reportedly wants to launch
+                          it's own phone
+                          </a>
+                        </h3>
+
+                        <ul class="card-top-ul">
+                          <li class="card-top-li">
+                            <a href="#" class="card-top-links"> Tristan Greene</a>
+                          </li>
+                          <li class="card-top-li"> . 2 hours ago</li>
+                        </ul>
+
+                    </div>
+                  </div>
+
+                  <div class="text-top-container">
+                    <div class="top-heading-text">
+                       <h3 class="card-top-heading">lorem ipsum</h3>
+                       <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                    </div>
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/AsusProduo.jpg" alt="" class="top-thumbnail-img">
+                  </div>
+              </div>
+              <div class="content-card-bottom">
+                <ul class="card-bottom-ul">
+                  <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                  <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                  <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                  <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                  <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="content-card-big">
+                <div class="content-card-title-wrapper">
+                  <h2 class="content-card-title">Gear<i class="fas fa-angle-right right-chev"></i></h2>
+                </div>
+                <div class="content-card-top">
+                    <div class="card-top-container card-2">
+                      <div class="card-text-wrapper-top">
+                        <h5 class="card-small-div">Most Popular</h5>
+                          <h3 class="card-top-head">
+                            <a href="#" class="top-heading-link">
+                              Dell and Alienware unveil a cornucopia of updates at Computex 2019
+                            </a>
+                          </h3>
+
+                          <ul class="card-top-ul">
+                            <li class="card-top-li">
+                              <a href="#" class="card-top-links"> Tristan Greene</a>
+                            </li>
+                            <li class="card-top-li"> . 2 hours ago</li>
+                          </ul>
+
+                      </div>
+                    </div>
+
+                    <div class="text-top-container">
+                      <div class="top-heading-text">
+                         <h3 class="card-top-heading">lorem ipsum</h3>
+                         <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                      </div>
+                      <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/be3553ab888d73263e001af301872f05.jpg" alt="" class="top-thumbnail-img">
+                    </div>
+                </div>
+                <div class="content-card-bottom">
+                  <ul class="card-bottom-ul">
+                    <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                    <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                    <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                    <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                    <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <div class="content-card-big">
+                  <div class="content-card-title-wrapper">
+                    <h2 class="content-card-title">Tech<i class="fas fa-angle-right right-chev"></i></h2>
+                  </div>
+                  <div class="content-card-top">
+                      <div class="card-top-container card-3">
+                        <div class="card-text-wrapper-top">
+                          <h5 class="card-small-div">Most Popular</h5>
+                            <h3 class="card-top-head">
+                              <a href="#" class="top-heading-link">
+                                Someone spent $1.3 million on a malware-ridden laptop and I clearly don’t understand art
+                              </a>
+                            </h3>
+
+                            <ul class="card-top-ul">
+                              <li class="card-top-li">
+                                <a href="#" class="card-top-links"> Tristan Greene</a>
+                              </li>
+                              <li class="card-top-li"> . 2 hours ago</li>
+                            </ul>
+
+                        </div>
+                      </div>
+
+                      <div class="text-top-container">
+                        <div class="top-heading-text">
+                           <h3 class="card-top-heading">lorem ipsum</h3>
+                           <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                        </div>
+                        <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/12/flipboard-730x276.jpg" alt="thumbnail img" class="top-thumbnail-img">
+                      </div>
+                  </div>
+                  <div class="content-card-bottom">
+                    <ul class="card-bottom-ul">
+                      <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                      <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                      <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                      <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                      <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="content-card-big">
+                    <div class="content-card-title-wrapper">
+                      <h2 class="content-card-title">Creative<i class="fas fa-angle-right right-chev"></i></h2>
+                    </div>
+                    <div class="content-card-top">
+                        <div class="card-top-container card-4">
+                          <div class="card-text-wrapper-top">
+                            <h5 class="card-small-div">Most Popular</h5>
+                              <h3 class="card-top-head">
+                                <a href="#" class="top-heading-link">
+                                  A peek at legendary architect John Storyk's design process
+                                </a>
+                              </h3>
+
+                              <ul class="card-top-ul">
+                                <li class="card-top-li">
+                                  <a href="#" class="card-top-links"> Tristan Greene</a>
+                                </li>
+                                <li class="card-top-li"> . 2 hours ago</li>
+                              </ul>
+
+                          </div>
+                        </div>
+
+                        <div class="text-top-container">
+                          <div class="top-heading-text">
+                             <h3 class="card-top-heading">lorem ipsum</h3>
+                             <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                          </div>
+                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/kratos.jpg" alt="thumbnail img" class="top-thumbnail-img">
+                        </div>
+                    </div>
+                    <div class="content-card-bottom">
+                      <ul class="card-bottom-ul">
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+                <div class="content-card-big">
+                    <div class="content-card-title-wrapper">
+                      <h2 class="content-card-title">Podium<i class="fas fa-angle-right right-chev"></i></h2>
+                    </div>
+                    <div class="content-card-top">
+                        <div class="card-top-container card-5">
+                          <div class="card-text-wrapper-top">
+                            <h5 class="card-small-div">Most Popular</h5>
+                              <h3 class="card-top-head">
+                                <a href="#" class="top-heading-link">
+                                    I miss blind, dumb enthusiasm for new tech
+                                  </a>
+                              </h3>
+
+                              <ul class="card-top-ul">
+                                <li class="card-top-li">
+                                  <a href="#" class="card-top-links"> Tristan Greene</a>
+                                </li>
+                                <li class="card-top-li"> . 2 hours ago</li>
+                              </ul>
+
+                          </div>
+                        </div>
+
+                        <div class="text-top-container">
+                          <div class="top-heading-text">
+                             <h3 class="card-top-heading">lorem ipsum</h3>
+                             <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                          </div>
+                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/download13.png" alt="thumbnail img" class="top-thumbnail-img">
+                        </div>
+                    </div>
+                    <div class="content-card-bottom">
+                      <ul class="card-bottom-ul">
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+                <div class="content-card-big">
+                    <div class="content-card-title-wrapper">
+                      <h2 class="content-card-title">Insights<i class="fas fa-angle-right right-chev"></i></h2>
+                    </div>
+                    <div class="content-card-top">
+                        <div class="card-top-container card-6">
+                          <div class="card-text-wrapper-top">
+                            <h5 class="card-small-div">Most Popular</h5>
+                              <h3 class="card-top-head">
+                                <a href="#" class="top-heading-link">
+                                    Kik raised $98M with a potentially illegal ICO. Now it wants your money to fight the SEC
+                                </a>
+                              </h3>
+
+                              <ul class="card-top-ul">
+                                <li class="card-top-li">
+                                  <a href="#" class="card-top-links"> Tristan Greene</a>
+                                </li>
+                                <li class="card-top-li"> . 2 hours ago</li>
+                              </ul>
+
+                          </div>
+                        </div>
+
+                        <div class="text-top-container">
+                          <div class="top-heading-text">
+                             <h3 class="card-top-heading">lorem ipsum</h3>
+                             <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                          </div>
+                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/coinbene-cryptocurrency-blockchain-bitcoin-trading-bafin-germany-maintenance.jpg" alt="thumbnail img" class="top-thumbnail-img">
+                        </div>
+                    </div>
+                    <div class="content-card-bottom">
+                      <ul class="card-bottom-ul">
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                        <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="content-card-big">
+                      <div class="content-card-title-wrapper">
+                        <h2 class="content-card-title">Launch<i class="fas fa-angle-right right-chev"></i></h2>
+                      </div>
+                      <div class="content-card-top">
+                          <div class="card-top-container card-7">
+                            <div class="card-text-wrapper-top">
+                              <h5 class="card-small-div">Most Popular</h5>
+                                <h3 class="card-top-head">
+                                  <a href="#" class="top-heading-link">
+                                      Mozilla rolls out new automated crypto-jacking filtering in Firefox
+                                  </a>
+                                </h3>
+
+                                <ul class="card-top-ul">
+                                  <li class="card-top-li">
+                                    <a href="#" class="card-top-links"> Tristan Greene</a>
+                                  </li>
+                                  <li class="card-top-li"> . 2 hours ago</li>
+                                </ul>
+
+                            </div>
+                          </div>
+
+                          <div class="text-top-container">
+                            <div class="top-heading-text">
+                               <h3 class="card-top-heading">lorem ipsum</h3>
+                               <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Stadia-black-hed.jpg" alt="thumbnail img" class="top-thumbnail-img">
+                          </div>
+                      </div>
+                      <div class="content-card-bottom">
+                        <ul class="card-bottom-ul">
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+
+                  <div class="content-card-big">
+                      <div class="content-card-title-wrapper">
+                        <h2 class="content-card-title">Distract<i class="fas fa-angle-right right-chev"></i></h2>
+                      </div>
+                      <div class="content-card-top">
+                          <div class="card-top-container card-8">
+                            <div class="card-text-wrapper-top">
+                              <h5 class="card-small-div">Most Popular</h5>
+                                <h3 class="card-top-head">
+                                  <a href="#" class="top-heading-link">
+                                      This website turns Bitcoin blockchain activity into ASMR
+                                  </a>
+                                </h3>
+
+                                <ul class="card-top-ul">
+                                  <li class="card-top-li">
+                                    <a href="#" class="card-top-links"> Tristan Greene</a>
+                                  </li>
+                                  <li class="card-top-li"> . 2 hours ago</li>
+                                </ul>
+
+                            </div>
+                          </div>
+
+                          <div class="text-top-container">
+                            <div class="top-heading-text">
+                               <h3 class="card-top-heading">lorem ipsum</h3>
+                               <p class="card-top-description"> <a href="#" class="top-description-link">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                            </div>
+                            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Hentai-Hot-Sauce.jpg" alt="thumbnail img" class="top-thumbnail-img">
+                          </div>
+                      </div>
+                      <div class="content-card-bottom">
+                        <ul class="card-bottom-ul">
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">Huawei denies its Android replacement will launch next month</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Project your true feelings with 33% off this Anker Projector</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">HP’s Envy laptops get a sexy new wood option</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">TikTok's parent company ByteDance reportedly wants to launch its own phone</a></li>
+                          <li class="card-bottom-lists"> <a href="#" class="card-bottom-li-link">CHEAP: Fly high with $350 off this DJI Spark drone</a></li>
+                        </ul>
+                      </div>
+                    </div>
+        </section>
+        </div>
+
+
+        <!-- Fourth section -->
+
+        <div class="row">
+          <section class="content-section">
+            <header class="latest-header
+            content-section-titles">
+              <h2 class=" content-section-h1 latest-header-head">
+                <a href="#" class="latest-header-link">Latest deals<i class="fas fa-angle-right right-chev"></i></a>
+              </h2>
+              <a href="#" class="latest-deal-link">See all Deals</a>
+            </header>
+
+            <div class="latest-card">
+              <div class="card-img-container-1 latest-card-img">
+                <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+              </div>
+              <div class="latest-card-text-container">
+                <h3 class="latest-card-h3">The Complete Digital Marketing Super Bundle</h3>
+                <p class="latest-card-p"><span class="card-comment">$1495</span>$200</p>
+              </div>
+            </div>
+
+            <div class="latest-card">
+              <div class="card-img-container-2 latest-card-img">
+                <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+              </div>
+              <div class="latest-card-text-container">
+                <h3 class="latest-card-h3">The Complete 2019 CompTIA Certification Training Bundle</h3>
+                <p class="latest-card-p"><span class="card-comment">$1495</span>$200</p>
+              </div>
+            </div>
+
+            <div class="latest-card">
+                <div class="card-img-container-3 latest-card-img">
+                  <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+                </div>
+                <div class="latest-card-text-container">
+                  <h3 class="latest-card-h3">The 2019 Certified Data Scientist Architect Bundle</h3>
+                  <p class="latest-card-p"><span class="card-comment">$1495</span>$200</p>
+                </div>
+            </div>
+            <div class="latest-card">
+                <div class="card-img-container-4 latest-card-img">
+                  <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+                </div>
+                <div class="latest-card-text-container">
+                  <h3 class="latest-card-h3">JavaScript Master Class</h3>
+                  <p class="latest-card-p"><span class="card-comment">$1495</span>$200</p>
+                </div>
+              </div>
+
+              <div class="latest-card">
+                <div class="card-img-container-5 latest-card-img">
+                  <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+                </div>
+                <div class="latest-card-text-container">
+                  <h3 class="latest-card-h3">StackSkills Unlimited: Lifetime Access</h3>
+                  <p class="latest-card-p"><span class="card-comment">$1495</span>$200</p>
+                </div>
+              </div>
+
+              <div class="latest-card">
+                  <div class="card-img-container-6 latest-card-img">
+                    <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+                  </div>
+                  <div class="latest-card-text-container">
+                    <h3 class="latest-card-h3">The Complete Python Certification Bootcamp Bundle</h3>
+                    <p class="latest-card-p"><span class="card-comment">$1495</span>$200</p>
+                  </div>
+              </div>
+
+              <div class="latest-card">
+                  <div class="card-img-container-7 latest-card-img">
+                    <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+                  </div>
+                  <div class="latest-card-text-container">
+                    <h3 class="latest-card-h3">MOFT: The "Invisible" Laptop Stand</h3>
+                    <p class="latest-card-p"><span class="card-comment">$1495</span>$200</p>
+                  </div>
+                </div>
+
+                <div class="latest-card">
+                    <div class="card-img-container-8 latest-card-img">
+                      <!-- <img src="#" alt="Card Img" class="latest-card-img"> -->
+                    </div>
+                    <div class="latest-card-text-container">
+                      <h3 class="latest-card-h3">KeepSolid VPN Unlimited: Lifetime Subscription</h3>
+                      <p class="latest-card-p">
+                        <span class="card-comment">$1495</span>$200</p>
+                    </div>
+              </div>
+
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-links">
+        <ul class="footer-icons">
+          <li class="footer-icons-li"><a href="#" class="footer-icons-links"><i
+          class="fab fa-facebook-square footer-icon"></i></a></li>
+          <li class="footer-icons-li"><a href="#" class="footer-icons-links"><i
+          class="fab fa-twitter footer-icon"></i></a></li>
+          <li class="footer-icons-li"><a href="#" class="footer-icons-links"><i
+          class="fab fa-youtube footer-icon"></i></a></li>
+          <li class="footer-icons-li"><a href="#" class="footer-icons-links"><i
+          class="fab fa-instagram footer-icon"></i></a></li>
+          <li class="footer-icons-li"><a href="#" class="footer-icons-links"><i
+          class="fab fa-pinterest-p footer-icon"></i></a></li>
+          <li class="footer-icons-li"><a href="#" class="footer-icons-links"><i
+          class="fas fa-rss footer-icon"></i></a></li>
+          <li class="footer-icons-li"><a href="#" class="footer-icons-links"><i
+          class="fas fa-envelope footer-icon"></i></a></li>
+        </ul>
+        <ul class="footer-site-map">
+          <li class="footer-map-li"><a href="#" class="footer-map-links">Events</a></li>
+          <li class="footer-map-li"><a href="#" class="footer-map-links">About</a></li>
+          <li class="footer-map-li"><a href="#" class="footer-map-links">Team</a></li>
+          <li class="footer-map-li"><a href="#" class="footer-map-links">Advertise</a></li>
+          <li class="footer-map-li"><a href="#"
+          class="footer-map-links">Jobs</a></li>
+          <li class="footer-map-li"><a href="#" class="footer-map-links">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-legal">
+        <div class="footer-legal-details">
+        <span class="footer-legal-span">
+            <a href="#" class="footer-legal-links"><img alt="The Next Web" class="footer-legal-logo"
+            src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"></a>
+            © 2019 The Next Web B.V. Clone
+        </span>
+        <span class="footer-legal-span">Made with <b>♥</b> by Radouane & Tunde.</span>
+        <span class="footer-legal-span">
+            Powered by Microverse.
+            <!-- <a href="#" class="footer-legal-links"><img alt="StackPath" class="footer-legal-logo" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"></a> -->
+        </span>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>
