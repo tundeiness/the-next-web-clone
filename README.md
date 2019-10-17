@@ -24,4 +24,4 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/tundeiness/the-next-web-clone/2d2270d4cbb0cf9442d6d6fc9a8a665630725848/index.html)
+[here](https://tundeiness.github.io/the-next-web-clone/)
